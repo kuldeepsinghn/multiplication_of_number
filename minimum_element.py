@@ -4,7 +4,7 @@ def min_num():
     for x in lis:
         if x < min:
             min = x
-    print("maximum number in list",min)
+    print("minimum number in list",min)
 
 
 if __name__ == '__main__':
