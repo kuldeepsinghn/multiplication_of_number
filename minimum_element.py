@@ -1,8 +1,8 @@
 def min_num():
-    lis=[1,2,3,4,2,43,32,34,3]
-    min = 0
+    lis=[2,3,4,5]
+    min = lis[0]
     for x in lis:
-        if min > x:
+        if x < min:
             min = x
     print("maximum number in list",min)
 
