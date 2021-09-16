@@ -7,5 +7,5 @@ def min_num():
     print("minimum number in list",min)
 
 
-if __name__ == '__main__':
+if __name__  == '__main__':             
     min_num()
